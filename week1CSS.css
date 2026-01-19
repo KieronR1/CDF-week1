@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: rgb(132, 132, 236);
+    background-color: rgb(250, 105, 136);
+}
+.parallaxImg {
+    /* Provide the name of your image */
+    background-image: url("img/free1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling eƯect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#paraimg1 {
+    background-image: url("img/free2.jpg");
+}
+#paraimg2{
+    background-image: url("img/free3.webp");
+}
+.txtArea
+{
+height:1000px;
+background-color:#Ưf;
+font-size:24px
+}
+    
