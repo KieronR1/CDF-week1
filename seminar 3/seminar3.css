@@ -1,0 +1,70 @@
+.section-box {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Step 1: CSS Centering */
+.image-center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-center-wrapper img {
+    width: 400px;
+}
+
+/* Step 3: Text Animation */
+.fade-slide-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    animation: slideUpFade 3s linear infinite;
+}
+
+@keyframes slideUpFade {
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+
+    25% {
+        opacity: 0.5;
+        transform: translateX(50px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(100px);
+    }
+
+    75% {
+        opacity: 0.5;
+        transform: translateX(150px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Behind everything */
+    background-color:  #f8f9fa;
+}
+
+body {
+    background: transparent;
+    /* Allows
+    particles to show */
+}
